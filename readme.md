@@ -4,8 +4,8 @@ A very basic hobby, real mode operating system that works as a reverse polish no
 
 ## Words
 
-|--------|-----------------------------------------------|
 | Number | Push a 16 bit positive integer onto the stack | 
+|--------|-----------------------------------------------|
 | +      | Add top two elements on stack                 |
 | -      | Subtract top two elements on stack            |
 | *      | Multiply top two elements on stack            |
@@ -15,5 +15,4 @@ A very basic hobby, real mode operating system that works as a reverse polish no
 | dup    | `a -- a a`                                    |
 | rot    | `a b c -- b c a`                              |
 | over   | `a b -- a b a`                                |
-|--------|-----------------------------------------------|
 
